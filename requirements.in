@@ -1,0 +1,26 @@
+# This file lists the direct dependencies of the ASRR project.
+# Use the command `pip-compile` to generate the requirements.txt file,
+# which will contain these packages and all of their dependencies, pinned to
+# specific versions for reproducible builds.
+
+# For interacting with Google Cloud services
+google-cloud-storage
+google-cloud-aiplatform
+google-cloud-discoveryengine
+
+# For the ADK Agent framework
+google-adk
+
+# For LangChain document loading and text splitting
+langchain-community
+langchain-text-splitters
+pypdf
+
+# For the Streamlit web app UI
+streamlit
+
+# For loading environment variables from .env files
+python-dotenv
+
+# feature/phase3-approach-a
+langgraph

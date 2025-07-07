@@ -1,0 +1,19 @@
+# Environments
+.env
+.venv
+
+# Byte-compiled / optimized / C extensions
+__pycache__/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+
+# Terraform files
+# Ignore local state files, plans, and provider plugins.
+# State should be managed with a remote backend for collaboration.
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform/
+crash.log

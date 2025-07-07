@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  sommas-app:
+    # Tells Compose to build the image from the Dockerfile in the current directory.
+    build: .
+    # The name of the image to build/use.
+    image: sommas-app
+    # Maps the ports.
+    ports:
+      - "8501:8501"
+    # Mounts your gcloud credentials.
+    volumes:
+      - ~/.config/gcloud:/root/.config/gcloud
+    # Loads your .env file.
+    env_file:
+      - .env
