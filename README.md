@@ -33,7 +33,7 @@ We will begin by creating a copy of the project template, which contains the nec
         ```
     * Clone the repository you just created. Replace `<your-github-username>` and `<your-repo-name>` with your details.
         ```bash
-        git clone [https://github.com/](https://github.com/)<your-github-username>/<your-repo-name>.git
+        git clone git@github.com:<your-github-username>/<your-repo-name>.git
         ```
     * Navigate into your new project directory:
         ```bash
