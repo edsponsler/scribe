@@ -69,7 +69,7 @@ def load_agent():
         model=MODEL,
         # --- The agent now has two tools to choose from ---
         tools=[search_knowledge_base, propose_gcp_architecture],
-        name="sommas_agent"
+        name="main_agent"
     )
 
     app = AdkApp(agent=agent)
@@ -77,10 +77,10 @@ def load_agent():
 
 # --- Streamlit UI ---
 
-st.title("SOMMAS: The Implementation Strategist")
+st.title("SCRIBE: The Implementation Strategist")
 
 st.markdown("""
-The Society of Mind Multi-Agent System (SOMMAS)
+The Scriptural Commentary Reflection Insights and Biblical Exegesis (SCRIBE)
 
 Try asking a simple factual question or a complex architectural query. For example:
 - **Simple search:** *Who is Marvin Minsky?*
