@@ -12,5 +12,5 @@ variable "gcp_region" {
 variable "base_name" {
   type        = string
   description = "A base name to use as a prefix for all created resources."
-  default     = "sommas"
+  default     = "scribe"
 }

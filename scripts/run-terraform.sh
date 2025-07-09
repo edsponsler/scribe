@@ -15,6 +15,7 @@ echo "Before you begin, make sure you have:"
 echo "1. Installed Terraform on your local machine."
 echo "2. Authenticated with Google Cloud ('gcloud auth login' and 'gcloud auth application-default login')."
 echo "3. Navigated your terminal into the 'terraform' directory of this project."
+echo "4. Set the region and base name in variables.tf."
 echo
 
 # Prompt for the Project ID

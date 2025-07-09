@@ -82,6 +82,8 @@ The `gcloud` command-line interface (CLI) is essential for interacting with your
 
 ### Step 3: Create Cloud Storage Buckets
 
+[UPDATED: Create Google Cloud resources with terraform. See scripts/]
+
 We need two secure locations in Google Cloud Storage to hold our documents: one for the original raw files and another for the processed, machine-readable data.
 
 1.  **Choose Unique Bucket Names:** Bucket names must be globally unique. A good practice is to append your unique project ID. For example: `asrr-raw-data-your-project-id`.
